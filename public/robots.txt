@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://usama.app/sitemap.xml
+
+# Disallow admin or private paths (future proof)
+Disallow: /api/
+Disallow: /_/
+Disallow: /admin/
