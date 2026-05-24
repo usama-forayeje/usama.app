@@ -114,14 +114,11 @@ function Portfolio() {
           {/* Avatar - Clean circular photo (Responsive) */}
           <div className="absolute top-[102px] left-1/2 z-20 -translate-x-1/2 sm:top-[120px] md:top-[135px] lg:top-[165px] xl:top-[175px]">
             <div className="relative h-[92px] w-[92px] overflow-hidden rounded-full border-[5px] border-[#0a0a0b] shadow-2xl ring-1 ring-white/10 sm:h-[108px] sm:w-[108px] sm:border-[6px] md:h-[120px] md:w-[120px] lg:h-[130px] lg:w-[130px] lg:border-[7px]">
-              <picture>
-                <source srcSet="/usamaforayaje.webp" type="image/webp" />
-                <img
-                  src="/usamaforayaje.png"
-                  alt="Usama Forayaje - Full-Stack & Generative AI Engineer and React Native Specialist from Bangladesh"
-                  className="h-full w-full object-cover"
-                />
-              </picture>
+              <img
+                src="/usamaforayaje.webp"
+                alt="Usama Forayaje - Full-Stack & Generative AI Engineer and React Native Specialist from Bangladesh"
+                className="h-full w-full object-cover"
+              />
             </div>
             {/* Status indicator */}
             <div className="absolute -right-0.5 -bottom-0.5 h-7 w-7 rounded-full border-[4px] border-[#0a0a0b] bg-emerald-500">
